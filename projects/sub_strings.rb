@@ -2,7 +2,7 @@
 # @param dictionary [Array]
 def substrings(string, dictionary)
   string = string.downcase
-  dictionary = dictionary.map { |word| word.downcase }
+  dictionary = dictionary.map(&:downcase)
   result = {}
 
   dictionary.each do |word|

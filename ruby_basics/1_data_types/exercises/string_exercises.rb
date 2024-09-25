@@ -1,6 +1,6 @@
 def concatenate_example(string)
   # use concatenation to format the result to be "Classic <string>"
-  "Classic " << string
+  'Classic ' << string
 end
 
 def concatenate(string)

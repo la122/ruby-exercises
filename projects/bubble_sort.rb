@@ -2,7 +2,7 @@
 def bubble_sort(array)
   loop do
     done = true
-    for i in 0...(array.length - 1)
+    (0...(array.length - 1)).each do |i|
       if array[i] > array[i + 1]
         array[i], array[i + 1] = array[i + 1], array[i]
         done = false

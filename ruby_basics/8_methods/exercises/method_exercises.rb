@@ -45,7 +45,7 @@ def ascii_code(character)
   if character.length == 1
     character.ord
   else
-    "Input Error"
+    'Input Error'
   end
 end
 
@@ -58,10 +58,10 @@ end
 # hint: use puts
 def pet_pun(animal)
   case animal
-  when "cat"
-    puts "Cats are purr-fect!"
-  when "dog"
-    puts "Dogs are paw-some!"
+  when 'cat'
+    puts 'Cats are purr-fect!'
+  when 'dog'
+    puts 'Dogs are paw-some!'
   else
     puts "I think #{animal}s have pet-tential!"
   end
