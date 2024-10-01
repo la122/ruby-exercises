@@ -3,3 +3,4 @@
 .vscode
 secret.key
 /projects/event_manager/output/
+/projects/hangman/save.json
