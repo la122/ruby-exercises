@@ -1,5 +1,14 @@
 # The Odin Project Ruby Exercises
 
+<table>
+  <tr>
+    <td><img src="screenshots/tic_tac_toe.png" width="300"/></td>
+    <td><img src="screenshots/mastermind.png" width="300"/></td>
+    <td><img src="screenshots/hangman.png" width="300"/><img src="screenshots/connect_four.png" width="300"/></td>
+    <td><img src="screenshots/chess.png" width="300"/></td>
+  </tr>
+</table>
+
 ## About this repository
 
 This repository is a complement to the Ruby course for The Odin Project. It contains a series of Ruby exercises alongside pre-written tests that will help guide the student towards a solution, providing a Test Driven Development experience.
